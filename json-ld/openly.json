@@ -1,0 +1,127 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://openly.com",
+  "name": "Openly",
+  "description": "Openly is an independent agent home insurance platform founded in 2017 and headquartered in Boston, Massachusetts. The company provides REST APIs for generating homeowners insurance quotes, binding policies, managing endorsements, and processing renewals.",
+  "url": "https://openly.com",
+  "foundingDate": "2017",
+  "foundingLocation": {
+    "@type": "Place",
+    "name": "Boston, Massachusetts, USA"
+  },
+  "sameAs": [
+    "https://openly.com",
+    "https://twitter.com/openlyllc",
+    "https://www.linkedin.com/company/openlyllc",
+    "https://github.com/openly-insurance"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Openly Insurance Products",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "name": "Homeowners Insurance",
+        "description": "Primary residence homeowners insurance with coverage up to $5M guaranteed replacement cost.",
+        "url": "https://openly.com/homeowners"
+      }
+    ]
+  },
+  "mainEntityOfPage": {
+    "@type": "WebSite",
+    "url": "https://openly.com"
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://developers.openly.com/"
+    },
+    "query-input": "API documentation"
+  },
+  "knowsAbout": [
+    "Home Insurance",
+    "Homeowners Insurance",
+    "InsurTech",
+    "Insurance Quote API",
+    "Policy Binding",
+    "Endorsements",
+    "Renewals",
+    "Landlord Insurance"
+  ],
+  "makesOffer": [
+    {
+      "@type": "Offer",
+      "name": "Openly Quote & Bind API",
+      "description": "REST API enabling independent insurance agencies to generate homeowners insurance quotes, bind policies, manage endorsements, and process renewals programmatically.",
+      "url": "https://developers.openly.com/"
+    }
+  ],
+  "subjectOf": {
+    "@type": "Blog",
+    "name": "The Open Door",
+    "url": "https://openly.com/the-open-door",
+    "blogPost": [
+      {
+        "@type": "BlogPosting",
+        "headline": "Understanding Insurance Agent Commissions",
+        "url": "https://openly.com/the-open-door/articles/understanding-agent-commissions"
+      },
+      {
+        "@type": "BlogPosting",
+        "headline": "Understanding Insurance Hazards in the South Eastern United States",
+        "url": "https://openly.com/the-open-door/articles/se-us-home-insurance-hazards",
+        "datePublished": "2026-06-04"
+      },
+      {
+        "@type": "BlogPosting",
+        "headline": "How the Home Insurance Claim Process Works",
+        "url": "https://openly.com/the-open-door/articles/how-does-the-home-insurance-claim-process-work",
+        "datePublished": "2026-05-29"
+      },
+      {
+        "@type": "BlogPosting",
+        "headline": "The Most Common Types of Home Claims (and How to Prevent Them)",
+        "url": "https://openly.com/the-open-door/articles/common-home-insurance-claim-examples",
+        "datePublished": "2026-05-22"
+      },
+      {
+        "@type": "BlogPosting",
+        "headline": "The Adjuster Role Is Changing, and Training Needs to Account for It",
+        "url": "https://openly.com/the-open-door/articles/adjuster-role-changing",
+        "datePublished": "2026-05-07"
+      },
+      {
+        "@type": "BlogPosting",
+        "headline": "7 Warning Signs Your Roof Needs to Be Replaced",
+        "url": "https://openly.com/the-open-door/articles/roof-replacement-warning-signs",
+        "datePublished": "2026-05-07"
+      },
+      {
+        "@type": "BlogPosting",
+        "headline": "Understanding Home Insurance Hazards in the Pacific Northwest",
+        "url": "https://openly.com/the-open-door/articles/pacific-northwest-home-insurance-hazards",
+        "datePublished": "2026-04-30"
+      },
+      {
+        "@type": "BlogPosting",
+        "headline": "Gen AI Fuels Insurance Fraud Arms Race",
+        "url": "https://openly.com/the-open-door/articles/gen-ai-fuels-insurance-fraud",
+        "datePublished": "2026-04-29"
+      },
+      {
+        "@type": "BlogPosting",
+        "headline": "How to Grow Your Insurance Book of Business With Openly",
+        "url": "https://openly.com/the-open-door/articles/how-to-grow-insurance-book-of-business-with-us",
+        "datePublished": "2026-04-24"
+      },
+      {
+        "@type": "BlogPosting",
+        "headline": "How Training Claims Adjusters to Think Like Owners Became Openly's Competitive Edge",
+        "url": "https://openly.com/the-open-door/articles/openly-claims-adjuster-training-competitive-edge",
+        "datePublished": "2026-04-15"
+      }
+    ]
+  }
+}

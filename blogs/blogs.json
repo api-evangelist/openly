@@ -1,0 +1,58 @@
+{
+  "name": "Openly Blog",
+  "description": "Blog posts from Openly covering home insurance topics, InsurTech trends, claims, and industry insights.",
+  "url": "https://openly.com/the-open-door",
+  "modified": "2026-06-13",
+  "posts": [
+    {
+      "title": "Understanding Insurance Agent Commissions",
+      "url": "https://openly.com/the-open-door/articles/understanding-agent-commissions",
+      "date": ""
+    },
+    {
+      "title": "Understanding Insurance Hazards in the South Eastern United States",
+      "url": "https://openly.com/the-open-door/articles/se-us-home-insurance-hazards",
+      "date": "2026-06-04"
+    },
+    {
+      "title": "How the Home Insurance Claim Process Works",
+      "url": "https://openly.com/the-open-door/articles/how-does-the-home-insurance-claim-process-work",
+      "date": "2026-05-29"
+    },
+    {
+      "title": "The Most Common Types of Home Claims (and How to Prevent Them)",
+      "url": "https://openly.com/the-open-door/articles/common-home-insurance-claim-examples",
+      "date": "2026-05-22"
+    },
+    {
+      "title": "The Adjuster Role Is Changing, and Training Needs to Account for It",
+      "url": "https://openly.com/the-open-door/articles/adjuster-role-changing",
+      "date": "2026-05-07"
+    },
+    {
+      "title": "7 Warning Signs Your Roof Needs to Be Replaced",
+      "url": "https://openly.com/the-open-door/articles/roof-replacement-warning-signs",
+      "date": "2026-05-07"
+    },
+    {
+      "title": "Understanding Home Insurance Hazards in the Pacific Northwest",
+      "url": "https://openly.com/the-open-door/articles/pacific-northwest-home-insurance-hazards",
+      "date": "2026-04-30"
+    },
+    {
+      "title": "Gen AI Fuels Insurance Fraud Arms Race",
+      "url": "https://openly.com/the-open-door/articles/gen-ai-fuels-insurance-fraud",
+      "date": "2026-04-29"
+    },
+    {
+      "title": "How to Grow Your Insurance Book of Business With Openly",
+      "url": "https://openly.com/the-open-door/articles/how-to-grow-insurance-book-of-business-with-us",
+      "date": "2026-04-24"
+    },
+    {
+      "title": "How Training Claims Adjusters to Think Like Owners Became Openly's Competitive Edge",
+      "url": "https://openly.com/the-open-door/articles/openly-claims-adjuster-training-competitive-edge",
+      "date": "2026-04-15"
+    }
+  ]
+}

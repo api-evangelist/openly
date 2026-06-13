@@ -1,0 +1,59 @@
+name: Openly API Rate Limits
+description: >-
+  Openly does not publicly document specific API rate limits. As a partner-only
+  API available to appointed independent insurance agencies, rate limit details
+  are provided through the authenticated developer portal at
+  developers.openly.com and as part of the agency API onboarding process.
+  The information below reflects known platform capabilities and general
+  expectations for insurance API integrations of this type.
+rateLimits:
+  - name: Quote Generation
+    description: >-
+      Openly's platform is engineered to generate fully underwritten homeowners
+      insurance quotes in as little as 15 seconds using three data points (name,
+      date of birth, address). Rate limits for programmatic quote generation via
+      the API are not publicly disclosed and are subject to the terms of the
+      agency API agreement.
+    scope: Per API Key / Per Agency
+    limit: Not publicly disclosed
+    window: Not publicly disclosed
+    notes: >-
+      Openly deploys approximately 12 platform updates daily, suggesting a
+      high-throughput engineering infrastructure. Specific rate limits are
+      established as part of agency API onboarding.
+  - name: Policy Binding
+    description: >-
+      Policy binding operations via the API are subject to underwriting rules
+      and partner agreement terms. No public rate limits are documented.
+    scope: Per Agency
+    limit: Not publicly disclosed
+    window: Not publicly disclosed
+  - name: Endorsement Management
+    description: >-
+      Endorsement and mid-term policy change requests via API are governed by
+      the agency partnership terms. No public rate limits are documented.
+    scope: Per Agency
+    limit: Not publicly disclosed
+    window: Not publicly disclosed
+  - name: Renewals
+    description: >-
+      Renewal processing through the API is available for appointed agency
+      partners. Rate limits and batch processing capabilities are not publicly
+      disclosed.
+    scope: Per Agency
+    limit: Not publicly disclosed
+    window: Not publicly disclosed
+authentication:
+  type: OAuth / API Key
+  description: >-
+    Authentication for the Openly developer portal is provided via GitHub,
+    Okta, or email credentials through the Stoplight-hosted workspace at
+    developers.openly.com. Specific API authentication mechanisms (API keys,
+    OAuth 2.0 tokens) for the backend integration are provided to approved
+    agency partners and are not publicly documented.
+  portalUrl: https://developers.openly.com/auth
+notes: >-
+  For specific rate limit information, approved agency partners should consult
+  the authenticated developer portal at developers.openly.com or contact Openly
+  engineering support. Agencies interested in API access should begin with an
+  appointment request at https://openly.com/appointment.

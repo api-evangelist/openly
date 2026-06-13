@@ -1,0 +1,58 @@
+name: Openly API Plans & Pricing
+description: >-
+  Openly provides API access to its homeowners insurance platform exclusively
+  for independent insurance agencies and appointed partners. API access is not
+  publicly available on a self-serve basis; agencies must apply for an
+  appointment with Openly and then request API integration credentials through
+  the developer portal at developers.openly.com. Pricing for API access is
+  negotiated as part of the agency appointment and partnership agreement.
+plans:
+  - name: Agent Portal Access
+    description: >-
+      Standard access for independent insurance agents through the Openly web
+      portal (app.openly.com). Includes the ability to generate quotes in
+      seconds, bind policies, manage endorsements, file claims via the eFNOL
+      portal, and access billing and policy documents. No API access; uses the
+      Openly web interface directly.
+    url: https://openly.com/agents
+    type: Free
+    targets:
+      - Independent Insurance Agents
+    features:
+      - Quote generation (as few as 3 data points)
+      - Policy binding online
+      - Endorsement management
+      - Claims filing (fnol.openly.com)
+      - Billing and document access
+      - Live chat support (< 1 minute response time)
+  - name: API Integration (Partner)
+    description: >-
+      API-based integration for tech-savvy and larger independent insurance
+      agencies that want to build custom interfaces and experiences while
+      plugging into Openly on the backend. Requires an agency appointment with
+      Openly and approval for API access through the developer portal.
+      Authentication is managed via the Stoplight-hosted developer portal using
+      GitHub, Okta, or email credentials.
+    url: https://developers.openly.com/
+    type: Partner
+    targets:
+      - Large Independent Agencies
+      - InsurTech Agencies
+      - Agency Management System Integrators
+    features:
+      - Programmatic quote generation
+      - Policy binding via API
+      - Endorsement management via API
+      - Renewal processing
+      - Access to underwriting data
+      - Custom interface development
+    requirements:
+      - Appointed Openly agency partner
+      - API access approval from Openly
+      - Authentication credentials via developers.openly.com
+notes: >-
+  Openly does not publish a public API pricing page. API access is part of the
+  broader agency partnership arrangement. Agencies interested in API integration
+  should contact Openly through the appointment request page and indicate their
+  interest in API-based integration. See https://openly.com/appointment for
+  agency appointment requests.

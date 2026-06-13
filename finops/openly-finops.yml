@@ -1,0 +1,79 @@
+name: Openly API FinOps
+description: >-
+  Financial operations considerations for integrating with Openly's homeowners
+  insurance API. Openly's API is a partner-only integration for appointed
+  independent insurance agencies and does not carry separate API transaction
+  fees or subscription costs. Revenue is generated through insurance premium
+  commissions earned by the agency on policies written through the Openly
+  platform. API access costs are bundled into the agency appointment and
+  partnership arrangement rather than billed separately per API call.
+model: Commission-Based (No Direct API Fees)
+currency: USD
+billing:
+  - name: Agency Commission
+    description: >-
+      Independent insurance agencies earn commissions on homeowners insurance
+      policies quoted and bound through the Openly platform, including via API
+      integration. Commission rates are negotiated as part of the agency
+      appointment agreement and vary based on policy type, volume, and agency
+      performance metrics.
+    type: Commission
+    rate: Negotiated per agency appointment
+    trigger: Policy bound and premium collected
+    notes: >-
+      Commission structure follows standard independent agency compensation
+      models for property and casualty insurance. Commissions are paid by Openly
+      as the general agency/program administrator, sourced from the gross written
+      premium on each policy.
+  - name: API Integration Setup
+    description: >-
+      There is no publicly documented fee for API integration setup. Access to
+      the developer portal and API credentials is provided to approved agency
+      partners as part of the Openly appointment. Technical integration work is
+      the responsibility of the agency or their technology provider.
+    type: One-Time Setup
+    cost: No fee (included in agency appointment)
+  - name: Platform Access
+    description: >-
+      Access to the Openly platform — including the web portal for non-API
+      users and the API for integrated agencies — is provided at no direct cost
+      to appointed agencies. Openly generates revenue through premium volume and
+      carrier partnerships (MS Transverse, Clear Blue Insurance Group).
+    type: Subscription
+    cost: No direct charge to agencies
+costDrivers:
+  - name: Policy Volume
+    description: >-
+      The primary business cost driver is the number of policies quoted and
+      bound. Higher volume agencies may negotiate improved commission rates.
+      API integrations typically support higher throughput than manual portal
+      usage, potentially increasing policy volume and commission earnings.
+  - name: Engineering Integration Cost
+    description: >-
+      Agencies building custom API integrations must account for internal or
+      third-party engineering costs to develop, test, and maintain the
+      integration with Openly's backend systems. This is an agency-borne cost
+      not charged by Openly.
+  - name: State Availability
+    description: >-
+      Openly is currently available in 24 states with plans for nationwide
+      expansion. Policy volume and API usage will be constrained by the
+      states where Openly is licensed to write coverage.
+optimization:
+  - recommendation: >-
+      Agencies should maximize quote-to-bind conversion rates to optimize
+      commission earnings per API call, as API infrastructure costs are fixed
+      while revenue scales with bound policies.
+  - recommendation: >-
+      Larger agencies and MGAs integrating via API should negotiate volume-based
+      commission schedules during the initial appointment process, as higher
+      API-driven volumes may qualify for enhanced commission tiers.
+  - recommendation: >-
+      Monitor Openly's state expansion roadmap to plan API integration capacity
+      for new markets as they become available.
+notes: >-
+  Openly does not publish a public pricing page for API access. All financial
+  terms are established through the agency appointment process. For appointment
+  inquiries, visit https://openly.com/appointment. For API integration
+  inquiries, contact Openly through the developer portal at
+  https://developers.openly.com/ after receiving an agency appointment.

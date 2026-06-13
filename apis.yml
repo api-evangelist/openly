@@ -1,0 +1,80 @@
+aid: openly
+name: Openly
+description: >-
+  Openly is an independent agent home insurance platform founded in 2017 and
+  headquartered in Boston, Massachusetts. The company provides REST APIs for
+  generating homeowners insurance quotes, binding policies, managing
+  endorsements, and processing renewals. Openly operates as a general agency
+  and program administrator, enabling tech-savvy independent agencies to build
+  custom interfaces and plug into the Openly platform on the backend. The
+  platform leverages actuarial science, machine learning, and advanced
+  technology to provide fully underwritten quotes in seconds, supporting primary
+  residences, secondary and seasonal homes, and landlord (rented-to-others)
+  policies with coverage up to $5M guaranteed replacement cost.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/openly/refs/heads/main/apis.yml
+created: "2026-06-13"
+modified: "2026-06-13"
+specificationVersion: "0.19"
+tags:
+  - Insurance
+  - Homeowners Insurance
+  - Home Insurance
+  - Quote
+  - Bind
+  - Policy
+  - Endorsement
+  - Renewal
+  - InsurTech
+apis:
+  - aid: openly:openly-quote-bind-api
+    name: Openly Quote & Bind API
+    description: >-
+      REST API enabling independent insurance agencies to generate homeowners
+      insurance quotes, bind policies, manage endorsements, and process renewals
+      programmatically. Agencies can build custom interfaces and experiences
+      while connecting to Openly on the backend for quoting, underwriting,
+      billing, and policy management across primary residences, secondary homes,
+      and landlord policies.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developers.openly.com/
+    baseURL: https://api.openly.com
+    tags:
+      - Insurance
+      - Quote
+      - Bind
+      - Policy
+      - Endorsement
+      - Homeowners
+    properties:
+      - type: Documentation
+        url: https://developers.openly.com/
+      - type: Authentication
+        url: https://developers.openly.com/auth
+common:
+  - type: Website
+    url: https://openly.com/
+  - type: Documentation
+    url: https://developers.openly.com/
+  - type: GitHubOrg
+    url: https://github.com/openly-insurance
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/openlyllc
+  - type: Blog
+    url: https://openly.com/the-open-door
+  - type: Pricing
+    url: https://openly.com/homeowners
+  - type: StatusPage
+    url: https://status.openly.com/
+  - type: X
+    url: https://twitter.com/openlyllc
+  - type: Plans
+    url: plans/openly-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/openly-rate-limits.yml
+  - type: FinOps
+    url: finops/openly-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

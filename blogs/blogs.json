@@ -54,5 +54,14 @@
       "url": "https://openly.com/the-open-door/articles/openly-claims-adjuster-training-competitive-edge",
       "date": "2026-04-15"
     }
-  ]
+  ],
+  "repo": "openly",
+  "feeds": [
+    {
+      "source": "https://www.linkedin.com/company/openlyllc",
+      "error": "HTTPError"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-06-14T20:42:17Z"
 }

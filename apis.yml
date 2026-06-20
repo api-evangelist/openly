@@ -11,7 +11,7 @@ description: >-
   technology to provide fully underwritten quotes in seconds, supporting primary
   residences, secondary and seasonal homes, and landlord (rented-to-others)
   policies with coverage up to $5M guaranteed replacement cost.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: >-
   https://raw.githubusercontent.com/api-evangelist/openly/refs/heads/main/apis.yml
 created: "2026-06-13"
@@ -37,7 +37,7 @@ apis:
       while connecting to Openly on the backend for quoting, underwriting,
       billing, and policy management across primary residences, secondary homes,
       and landlord policies.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://developers.openly.com/
     baseURL: https://api.openly.com
     tags:

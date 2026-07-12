@@ -53,6 +53,8 @@ apis:
       - type: Authentication
         url: https://developers.openly.com/auth
 common:
+  - type: DomainSecurity
+    url: security/openly-domain-security.yml
   - type: Website
     url: https://openly.com/
   - type: Documentation

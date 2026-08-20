@@ -33,6 +33,16 @@ tags:
   - Insurance
   - Homeowners Insurance
   - Home Insurance
+  - Quotes
+  - Bind
+  - Policy
+  - Endorsement
+  - Renewal
+  - Insurtech
+tags_raw:
+  - Insurance
+  - Homeowners Insurance
+  - Home Insurance
   - Quote
   - Bind
   - Policy
@@ -53,6 +63,13 @@ apis:
     humanURL: https://developers.openly.com/
     baseURL: https://api.openly.com
     tags:
+      - Insurance
+      - Quotes
+      - Bind
+      - Policy
+      - Endorsement
+      - Homeowners
+    tags_raw:
       - Insurance
       - Quote
       - Bind

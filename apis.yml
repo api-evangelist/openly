@@ -11,6 +11,17 @@ description: >-
   technology to provide fully underwritten quotes in seconds, supporting primary
   residences, secondary and seasonal homes, and landlord (rented-to-others)
   policies with coverage up to $5M guaranteed replacement cost.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown

@@ -47,7 +47,7 @@ tags:
   - Quotes
   - Bind
   - Policy
-  - Endorsement
+  - Endorsements
   - Renewal
   - Insurtech
 tags_raw:
@@ -78,7 +78,7 @@ apis:
       - Quotes
       - Bind
       - Policy
-      - Endorsement
+      - Endorsements
       - Homeowners
     tags_raw:
       - Insurance

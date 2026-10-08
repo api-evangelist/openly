@@ -60,3 +60,21 @@ notes: >-
   should contact Openly through the appointment request page and indicate their
   interest in API-based integration. See https://openly.com/appointment for
   agency appointment requests.
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models: []
+  units: []
+  plans:
+  - name: Agent Portal Access
+    access: free
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
+  - name: API Integration (Partner)
+    access: partner
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []

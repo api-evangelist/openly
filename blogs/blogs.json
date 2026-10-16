@@ -2,6 +2,13 @@
   "repo": "openly",
   "feeds": [
     {
+      "source": "https://openly.com/the-open-door",
+      "feed_url": "https://openly.com/the-open-door",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
       "source": "https://www.linkedin.com/company/openlyllc",
       "feed_url": "https://www.linkedin.com/company/openlyllc",
       "title": "",
@@ -9,7 +16,7 @@
       "method": "none"
     }
   ],
-  "fetched": "2026-10-03T12:30:02Z",
+  "fetched": "2026-10-10T13:15:00Z",
   "post_count": 2,
   "agent_pulled": "2026-07-04",
   "feed_nature": "undetermined",
